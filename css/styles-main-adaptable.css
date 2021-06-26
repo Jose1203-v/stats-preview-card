@@ -1,0 +1,37 @@
+body {
+    height: auto;
+    padding: 50px 0px 50px 0;
+}
+.card {
+    flex-direction:column;
+    width: 325px;
+    height: auto;
+}
+
+.card-articulo {
+    order: 2;
+    text-align: center;
+    padding-right: 20px;
+    padding-left:20px;
+    padding-bottom: 10px;
+}
+
+.card-articulo-title {
+    font: 700 30px Inter;
+}
+.card-articulo-text {
+    font-size: 16px;
+    line-height: 25px;
+}
+
+.card-articulo-footer {
+    flex-direction: column;
+}
+
+.card-articulo-footer-section {
+    margin-bottom: 20px;
+}
+
+.card-contenedorimg, .card-contenedorimg div {
+    border-radius: 10px 10px 0 0;
+}
